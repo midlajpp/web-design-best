@@ -147,8 +147,47 @@ a:hover {
   width: 100%;
   height: 600px;
 }
-.sign-btn{
-  width: 300px;
+.txt{
+  width: 50%;
+  float: left;
+}
+.form-page{
+  width: 320px;
   height: 350px;
-  background-color: #fff;
+  background: transparent;
+  border: 3px solid rgba(14, 167, 39, 0.5);
+  border-radius: 10px;
+  filter: blur(00.5s);
+  margin-top: 150px;
+}
+.Create{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #eeeb31;
+  
+}
+#txt{
+  margin-left: 26px;
+  border: none;
+  border-radius: 10px; 
+  border-color: solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.5);
+  outline: none;
+  font-size: 17px;
+  height: 35px;
+}
+#names{
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.btn-create{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(209, 132, 16);
+  border: none;
+  outline: none;
 }
